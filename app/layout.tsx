@@ -1,32 +1,16 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const SITE_URL = 'https://nexusdesktop.netlify.app/';
-const TITLE = 'Nexus - Your Notes. Your Browser. Your AI.';
-const DESCRIPTION =
-  'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.';
-
 export const metadata: Metadata = {
-  title: {
-    default: TITLE,
-    template: '%s · Nexus',
-  },
-  description: DESCRIPTION,
-  metadataBase: new URL(SITE_URL),
+  title: 'Nexus - Your Notes. Your Browser. Your AI.',
+  description:
+    'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.',
+  metadataBase: new URL('https://nexusdesktop.netlify.app/'),
   openGraph: {
-    title: TITLE,
-    description: DESCRIPTION,
+    title: 'Nexus - Your Notes. Your Browser. Your AI.',
+    description:
+      'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.',
     type: 'website',
-    siteName: 'Nexus',
-    url: SITE_URL,
-    // Next.js auto-detects app/opengraph-image.tsx and injects it here —
-    // no need to list an images array manually.
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: TITLE,
-    description: DESCRIPTION,
-    // Next.js auto-detects app/twitter-image.tsx the same way.
   },
   icons: {
     icon: '/nexus-black.svg',
