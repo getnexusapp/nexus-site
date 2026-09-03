@@ -25,22 +25,27 @@ export default function Footer() {
               </p>
               <ul className="mt-3 space-y-2 text-[13px] text-ink-muted">
                 <li>
-                  <a href="#workspace" className="hover:text-ink">
+                  <a href="https://nexusdesktop.netlify.app/#workspace" className="hover:text-ink">
                     Workspace
                   </a>
                 </li>
                 <li>
-                  <a href="#features" className="hover:text-ink">
+                  <a href="https://nexusdesktop.netlify.app/#features" className="hover:text-ink">
                     Features
                   </a>
                 </li>
                 <li>
-                  <a href="#themes" className="hover:text-ink">
+                  <a href="https://nexusdesktop.netlify.app/#themes" className="hover:text-ink">
                     Themes
                   </a>
                 </li>
                 <li>
-                  <a href="#download" className="hover:text-ink">
+                  <a href="https://nexusdesktop.netlify.app/#privacy" className="hover:text-ink">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="https://nexusdesktop.netlify.app/#download" className="hover:text-ink">
                     Download
                   </a>
                 </li>
@@ -49,7 +54,7 @@ export default function Footer() {
 
             <div>
               <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-ink-faint">
-                Project
+                Social
               </p>
               <ul className="mt-3 space-y-2 text-[13px] text-ink-muted">
                 <li>
@@ -63,8 +68,13 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#privacy" className="hover:text-ink">
-                    Privacy
+                  <a
+                    href="https://x.com/getnxsapp"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="hover:text-ink"
+                  >
+                    Twitter (X)
                   </a>
                 </li>
               </ul>
