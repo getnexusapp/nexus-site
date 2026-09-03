@@ -100,11 +100,6 @@ export default function Footer() {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
-                  <a href="/security" className="hover:text-ink">
-                    Security
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
