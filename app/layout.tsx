@@ -12,6 +12,12 @@ export const metadata: Metadata = {
       'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nexus - Your Notes. Your Browser. Your AI.',
+    description:
+      'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.',
+  },
   icons: {
     icon: '/nexus-black.svg',
   },
