@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #14120f;
+  color: #f3ede3;
+}
+
+::selection {
+  background: #e2a75e;
+  color: #14120f;
+}
+
+/* Visible keyboard focus everywhere, not just on hover-capable pointers */
+:focus-visible {
+  outline: 2px solid #e2a75e;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Fine hairline grid used behind the hero — a nod to the app's own
+   graph canvas, kept extremely quiet. */
+.bg-hairline {
+  background-image:
+    linear-gradient(to right, rgba(243, 237, 227, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(243, 237, 227, 0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
