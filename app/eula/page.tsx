@@ -14,10 +14,6 @@ export default function TermsPage() {
       updated="September 2, 2026"
     >
       <p>
-        <strong>Last Updated: September 2, 2026</strong>
-      </p>
-
-      <p>
         This End User License Agreement ("Agreement") is a legal agreement
         between you, either an individual or an entity you represent
         ("You" or "User"), and <strong>Nawrass Andaloussi Dahman</strong>, an
