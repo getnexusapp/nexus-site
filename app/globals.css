@@ -49,3 +49,39 @@ body {
     linear-gradient(to bottom, rgba(243, 237, 227, 0.035) 1px, transparent 1px);
   background-size: 42px 42px;
 }
+
+.legal h2 {
+  @apply mt-10 font-display text-xl font-semibold text-ink sm:text-2xl;
+}
+
+.legal h2:first-child {
+  @apply mt-0;
+}
+
+.legal h3 {
+  @apply mt-6 font-display text-[15px] font-semibold text-ink;
+}
+
+.legal p {
+  @apply mt-3;
+}
+
+.legal ul {
+  @apply mt-3 list-disc space-y-1.5 pl-5;
+}
+
+.legal li::marker {
+  color: #55493c; /* border-strong */
+}
+
+.legal a {
+  @apply text-amber underline decoration-amber/40 underline-offset-2 transition-colors hover:text-amber-hover;
+}
+
+.legal strong {
+  @apply text-ink;
+}
+
+.legal hr {
+  @apply mt-10 border-border;
+}
