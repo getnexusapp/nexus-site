@@ -10,10 +10,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <LegalLayout title="Nexus Privacy Policy" updated="August 23, 2026">
-      <p>
-        <strong>Last Updated: August 23, 2026</strong>
-      </p>
-
+      
       <p>
         Nexus is developed and operated by{' '}
         <strong>Nawrass Andaloussi Dahman</strong>, an independent software
