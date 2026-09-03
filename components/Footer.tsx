@@ -64,7 +64,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#privacy" className="hover:text-ink">
-                    Privacy overview
+                    Privacy
                   </a>
                 </li>
               </ul>
@@ -81,8 +81,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/terms" className="hover:text-ink">
-                    Terms of Service
+                  <a href="/eula" className="hover:text-ink">
+                    Eula
                   </a>
                 </li>
                 <li>
