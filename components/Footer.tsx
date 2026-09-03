@@ -64,7 +64,35 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#privacy" className="hover:text-ink">
-                    Privacy
+                    Privacy overview
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-ink-faint">
+                Legal
+              </p>
+              <ul className="mt-3 space-y-2 text-[13px] text-ink-muted">
+                <li>
+                  <a href="/license" className="hover:text-ink">
+                    License
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="hover:text-ink">
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy-policy" className="hover:text-ink">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/security" className="hover:text-ink">
+                    Security
                   </a>
                 </li>
               </ul>
