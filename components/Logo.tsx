@@ -1,0 +1,46 @@
+type Props = {
+  size?: number;
+  className?: string;
+};
+
+export default function Logo({ size = 36, className = '' }: Props) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+    >
+      {/* White background */}
+      <rect width="512" height="512" rx="115" fill="#FFFFFF" />
+
+      {/* Black logo */}
+      <g transform="translate(98 90) scale(1.45)">
+        <path
+          d="
+            M338 194 L394 226 L432 205 L377 175 Z
+            M414 370 L358 338 L320 359 L375 389 Z
+
+            M303.35 221.95
+            Q284 227 283.44 246.99
+            L281 335
+            L318 314
+            L319 270
+            L445 343
+            L448.65 342.05
+            Q468 337 468.56 317.01
+            L471 229
+            L434 250
+            L433 294
+            L307 221
+            Z
+          "
+          fill="#000000"
+          transform="translate(-267 -161)"
+        />
+      </g>
+    </svg>
+  );
+}
