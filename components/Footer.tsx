@@ -74,7 +74,17 @@ export default function Footer() {
                     rel="noreferrer noopener"
                     className="hover:text-ink"
                   >
-                    Twitter (X)
+                    Twitter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/getnexusapp"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="hover:text-ink"
+                  >
+                    Linkedin
                   </a>
                 </li>
               </ul>
