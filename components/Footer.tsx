@@ -102,7 +102,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="/eula" className="hover:text-ink">
-                    Eula
+                    EULA
                   </a>
                 </li>
                 <li>
