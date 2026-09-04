@@ -97,17 +97,22 @@ export default function Footer() {
               <ul className="mt-3 space-y-2 text-[13px] text-ink-muted">
                 <li>
                   <a href="/license" className="hover:text-ink">
-                    License
-                  </a>
-                </li>
-                <li>
-                  <a href="/eula" className="hover:text-ink">
-                    EULA
+                    Software License
                   </a>
                 </li>
                 <li>
                   <a href="/privacy-policy" className="hover:text-ink">
                     Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms-service" className="hover:text-ink">
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/eula" className="hover:text-ink">
+                    EULA
                   </a>
                 </li>
               </ul>
