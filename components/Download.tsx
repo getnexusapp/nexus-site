@@ -1,7 +1,5 @@
 const PLATFORMS = [
-  { name: 'macOS', note: 'Apple Silicon & Intel' },
   { name: 'Windows', note: '.exe & .msi' },
-  { name: 'Linux', note: '.deb' },
 ];
 
 export default function Download() {
@@ -25,7 +23,7 @@ export default function Download() {
                 {PLATFORMS.map((platform) => (
                   <a
                     key={platform.name}
-                    href="https://github.com/getnexusapp/releases/releases/tag/v5.0.0"
+                    href="https://github.com/getnexusapp/releases/releases/tag/v5.3.0"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="group flex min-w-[150px] flex-col rounded-lg border border-border-strong bg-surface-2 px-4 py-3 transition-colors hover:border-amber"
