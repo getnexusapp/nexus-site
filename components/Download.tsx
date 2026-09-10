@@ -16,7 +16,7 @@ export default function Download() {
                 One app. Three platforms. Everything connected.
               </h2>
               <p className="mt-4 max-w-md text-[15px] leading-relaxed text-ink-muted">
-                Free to try, nothing to configure on a server somewhere. Download Nexus and open your first note in under a minute.
+                Free to try, nothing to configure on a server somewhere. Download Nexus and create your first note in under a minute.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
