@@ -187,7 +187,7 @@ Use of the Nexus website may involve the collection or processing of information
 
 For information regarding data handling and privacy practices, please see:
 
-**[Nexus Privacy Policy](./PRIVACY_POLICY.md)**
+**Nexus Privacy Policy**
 
 ---
 
