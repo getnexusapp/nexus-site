@@ -1,5 +1,14 @@
 const PLATFORMS = [
-  { name: 'Windows', note: '.exe & .msi' },
+  {
+    name: 'Windows',
+    note: '.exe & .msi',
+    href: 'https://github.com/getnexusapp/releases/releases/tag/v5.4.0',
+  },
+  {
+    name: 'Android',
+    note: '.apk',
+    href: 'https://github.com/getnexusapp/releases/releases/tag/android-v6.0.0',
+  },
 ];
 
 export default function Download() {
@@ -12,18 +21,21 @@ export default function Download() {
               <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-amber">
                 Get Nexus
               </p>
+
               <h2 className="mt-3 font-display text-3xl font-semibold text-ink sm:text-4xl">
-                One app. Three platforms. Everything connected.
+                One app. Multiple platforms. Everything connected.
               </h2>
+
               <p className="mt-4 max-w-md text-[15px] leading-relaxed text-ink-muted">
-                Free to try, nothing to configure on a server somewhere. Download Nexus and create your first note in under a minute.
+                Free to try, with everything stored locally. Download Nexus
+                and create your first note in under a minute.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
                 {PLATFORMS.map((platform) => (
                   <a
                     key={platform.name}
-                    href="https://github.com/getnexusapp/releases/releases/tag/v5.4.0"
+                    href={platform.href}
                     target="_blank"
                     rel="noreferrer noopener"
                     className="group flex min-w-[150px] flex-col rounded-lg border border-border-strong bg-surface-2 px-4 py-3 transition-colors hover:border-amber"
@@ -31,6 +43,7 @@ export default function Download() {
                     <span className="font-display text-[14px] font-semibold text-ink">
                       {platform.name}
                     </span>
+
                     <span className="mt-0.5 font-mono text-[11px] text-ink-faint">
                       {platform.note}
                     </span>
@@ -54,20 +67,24 @@ export default function Download() {
 
             <div className="rounded-xl border border-border bg-bg/60 p-6 font-mono text-[12.5px] leading-relaxed text-ink-muted">
               <p className="text-ink-faint">// what's inside</p>
+
               <p className="mt-2">
                 <span className="text-slate">runtime</span> = Tauri + Rust
               </p>
+
               <p>
                 <span className="text-slate">ui</span> = React + TypeScript
               </p>
+
               <p>
                 <span className="text-slate">storage</span> = SQLite, on disk
-                storage
               </p>
+
               <p>
                 <span className="text-slate">search</span> = Local embedding
                 model
               </p>
+
               <p>
                 <span className="text-slate">assistant</span> = Your own API key
               </p>
