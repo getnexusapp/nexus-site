@@ -87,6 +87,16 @@ export default function Footer() {
                     Linkedin
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://www.reddit.com/r/GetNexusApp"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="hover:text-ink"
+                  >
+                    Reddit
+                  </a>
+                </li>
               </ul>
             </div>
 
