@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Nexus - Your Notes. Your Browser. Your AI.',
   description:
     'Nexus is a local-first workspace that connects your notes, web research, and AI in one place. Write in Markdown, browse the web, and ask AI questions with your context already connected — all running locally on your private machine.',
-  metadataBase: new URL('https://nexusdesktop.netlify.app/'),
+  metadataBase: new URL('https://letnexusout.vercel.app/'),
   openGraph: {
     title: 'Nexus - Your Notes. Your Browser. Your AI.',
     description:
