@@ -2,17 +2,17 @@ import Link from 'next/link';
 import Logo from './Logo';
 
 const LINKS = [
-  { href: 'https://nexusdesktop.netlify.app/#workspace', label: 'Workspace' },
-  { href: 'https://nexusdesktop.netlify.app/#features', label: 'Features' },
-  { href: 'https://nexusdesktop.netlify.app/#themes', label: 'Themes' },
-  { href: 'https://nexusdesktop.netlify.app/#privacy', label: 'Privacy' },
+  { href: 'https://letnexusout.vercel.app/#workspace', label: 'Workspace' },
+  { href: 'https://letnexusout.vercel.app/#features', label: 'Features' },
+  { href: 'https://letnexusout.vercel.app/#themes', label: 'Themes' },
+  { href: 'https://letnexusout.vercel.app/#privacy', label: 'Privacy' },
 ];
 
 export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-bg/85 backdrop-blur">
       <div className="mx-auto flex max-w-content items-center justify-between px-6 py-4">
-        <a href="https://nexusdesktop.netlify.app/#top" className="flex items-center gap-3">
+        <a href="https://letnexusout.vercel.app/#top" className="flex items-center gap-3">
           <Logo size={32} />
           <span className="font-display text-[15px] font-semibold tracking-[0.14em] text-ink">
             NEXUS
